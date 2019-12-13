@@ -1,7 +1,14 @@
 Feature: realizar el proceso de compra completo
 
+
   Scenario Outline: ana inicia se registra en la pagina y realiza una compra exitosamente
     Given luis se registra en la pagina con sus datos basicos nombre "<nombre>" apellido "<apellido>" y telefono "<telefono>" y su email "<email>"
+    | nombre   | <nombre>   |
+    | apellido | <apellido> |
+    | telefono | <telefono> |
+    | email    | <email>    |
+    | password | <password> |
+
     When realiza una compra exitosamente
     Then debe de generar un comprobante de compra
 

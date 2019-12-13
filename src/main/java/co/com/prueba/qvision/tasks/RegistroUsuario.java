@@ -17,11 +17,14 @@ public class RegistroUsuario implements Task {
     private String apellido;
     private String telefono;
     private String email;
+    private String day;
     RegistroUsuario(String nombre, String apellido, String telefono, String email){
         this.nombre = nombre;
         this.apellido = apellido;
         this.telefono = telefono;
         this.email = email;
+        RegistroUsuarioPage registro = new RegistroUsuarioPage();
+        registro.setDay(day);
     }
     @Override
     @Step("{1} un usuario se registra ")
@@ -41,13 +44,13 @@ public class RegistroUsuario implements Task {
                 Click.on(RegistroUsuarioPage.YEAR),
                 Enter.theValue(nombre).into(RegistroUsuarioPage.FIRST_NAME),
                 Enter.theValue(apellido).into(RegistroUsuarioPage.LAST_NAME),
-                Enter.theValue("SOFKA").into(RegistroUsuarioPage.COMPANY),
-                Enter.theValue("Cra 10").into(RegistroUsuarioPage.ADDRESS),
+                Enter.theValue("Qvision").into(RegistroUsuarioPage.COMPANY),
+                Enter.theValue("Calasanz").into(RegistroUsuarioPage.ADDRESS),
                 Enter.theValue("Medellin").into(RegistroUsuarioPage.CITY),
                 Click.on(RegistroUsuarioPage.STATE),
-                Enter.theValue("00000").into(RegistroUsuarioPage.POSTAL_CODE),
+                Enter.theValue("0050035").into(RegistroUsuarioPage.POSTAL_CODE),
                 Click.on(RegistroUsuarioPage.COUNTRY),
-                Enter.theValue("0000000").into(RegistroUsuarioPage.PHONE),
+                Enter.theValue(telefono).into(RegistroUsuarioPage.PHONE),
                 Enter.theValue("Cra 11").into(RegistroUsuarioPage.ADDRESS_CONFIRM),
                 Click.on(RegistroUsuarioPage.CONFIRM)
         );
