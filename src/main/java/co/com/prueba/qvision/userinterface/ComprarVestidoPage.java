@@ -17,6 +17,4 @@ public class ComprarVestidoPage extends PageObject {
     public static final Target CHECKOUT2 = Target.the("Continuar").located(By.xpath("//*[@id='form']/p/button/span"));
     public static final Target PAYBAYCHECK = Target.the("Pago con cheque").located(By.xpath("//*[@id='HOOK_PAYMENT']/div[2]/div/p/a"));
     public static final Target CONFIRM = Target.the("Confirmar compra").located(By.xpath("//*[@id='cart_navigation']/button/span"));
-    public static final Target SUCCESS = Target.the("nombre del vestido a comprar").located(By.xpath("//*[@id='center_column']/p[1]"));
-
 }

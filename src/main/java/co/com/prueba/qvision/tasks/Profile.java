@@ -1,8 +1,6 @@
 package co.com.prueba.qvision.tasks;
 
-import co.com.prueba.qvision.userinterface.ComprarVestidoPage;
 import co.com.prueba.qvision.userinterface.ProfilePage;
-import co.com.prueba.qvision.userinterface.RegistroUsuarioPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;

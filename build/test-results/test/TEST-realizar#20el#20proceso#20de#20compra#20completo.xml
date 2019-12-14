@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="realizar el proceso de compra completo" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-14T23:20:29" hostname="DESKTOP-HFRMDRT" time="70.713">
+  <properties/>
+  <testcase name="luis se registra en la pagina y realiza una compra exitosamente y envia el comprobante de pago" classname="realizar el proceso de compra completo" time="70.713"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given luis se registra en la pagina con sus datos basicos
+| nombre | Luis Fernando |
+| apellido | Mercado |
+| telefono | 3185548721 |
+| email | correo@correovalido.com |
+| contraseña | 123456luis |
+| compañia | Qvision |
+| direccion | Calazans |
+| ciudad | Medellin |
+| codigoPost | 50035 |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis ingresa a la url principal 
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis opens the http://automationpractice.com/index.php
+dic 14, 2019 6:20:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --incognito --lang=es,--dis..., goog:chromeOptions: {args: [--incognito, --lang=es, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, --always-authorize-plugins, --disable-extensions, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 40186
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+dic 14, 2019 6:20:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP {1} un usuario se registra 
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Boton de iniciar sesion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'correo1576365630201@correovalido.com' into Campo ingresar correo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Boton Crear Cuenta
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Radio button Mr
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'Luis Fernando' into Campo para ingresar nombre
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'Mercado' into Campo para ingresar apellido
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'correo1576365630201@correovalido.com' into Campo para ingresar correo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters '123456luis' into Campo para ingresar contraseña
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Campo para ingresar dia
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Campo para ingresar mes
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Campo para ingresar año
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'Luis Fernando' into Campo para ingresar nombre
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'Mercado' into Campo para ingresar apellido
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'Qvision' into Campo para ingresar empresa
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'Calazans' into Campo para ingresar empresa
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'Medellin' into Campo para ingresar ciudad
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Campo para ingresar estado
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters '50035' into Campo para ingresar codigo postal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Campo para ingresar la ciudad
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters '3185548721' into Campo para ingresar el telefono
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'Calazans' into Campo para ingresar la direccion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Boton para confirmar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP When realiza una compra exitosamente
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP {2} se realiza una compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Pagina Principal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Menu vestidos
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Submenu vestidos
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Vestido a comprar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Agregar compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Continuar con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Continuar con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Continuar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Aceptar terminos del servicio
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Continuar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Pago con cheque
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on Confirmar compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP And descarga el recibo de compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP {3} descarga el recibo de pago
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on perfil del usuario
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on historial de compras
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on descargar pdf de compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP And envia el comprobante de pago
+| usurio | usuariopruebaqvision@gmail.com |
+| contraseñaMail | 123456789Qvision |
+| receiver | usuariopruebaqvision@gmail.com |
+| reason | comprobante de compra |
+| bodyMessage | esta la factura con el valor de la compra |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis ingresa a la url principal 
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis opens the https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enviar correo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'usuariopruebaqvision@gmail.com' into input para ingresar correo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on boton de siguiente
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters '123456789Qvision' into input para ingresar contraseña
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on boton de siguiente
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on boton para redactar correo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'usuariopruebaqvision@gmail.com' into destinatario del correo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'comprobante de compra' into motivo del correo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis enters 'esta la factura con el valor de la compra' into cuerpo del mensaje
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis subir archivo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on enviar correo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luis clicks on correos enviados
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then el correo debio ser enviado
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then comprobante should be (true)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: luis se registra en la pagina y realiza una compra exitosamente y envia el comprobante de pago
+----------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>

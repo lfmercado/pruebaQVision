@@ -1,18 +1,10 @@
 package co.com.prueba.qvision.userinterface;
 
-import net.bytebuddy.asm.Advice;
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
-import org.seleniumhq.jetty9.util.log.Log;
 
 public class RegistroUsuarioPage extends PageObject {
-
-    public static Target getDay(String day){
-        Target DAY =  Target.the("Campo para ingresar dia").located(By.xpath("(//select//option[contains(text(),'{0}')])[1]")).of("21");
-        //System.out.println(DAY.());
-        return DAY;
-    }
     public static final Target SIGN_IN = Target.the("Boton de iniciar sesion").located(By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a"));
     public static final Target EMAIL = Target.the("Campo ingresar correo").located(By.id("email_create"));
     public static final Target CREATE_ACCOUNT = Target.the("Boton Crear Cuenta").located(By.id("SubmitCreate"));
@@ -21,11 +13,9 @@ public class RegistroUsuarioPage extends PageObject {
     public static final Target LAST_NAME1 = Target.the("Campo para ingresar apellido").located(By.id("customer_lastname"));
     public static final Target EMAIL_CONFIRM = Target.the("Campo para ingresar correo").located(By.id("email"));
     public static final Target PASSWORD = Target.the("Campo para ingresar contraseña").located(By.id("passwd"));
-
     public static final Target DAY = Target.the("Campo para ingresar dia").located(By.xpath("(//select//option[contains(text(),'21')])[1]"));
     public static final Target MONTH = Target.the("Campo para ingresar mes").located(By.xpath("//select//option[contains(text(),'September')]"));
     public static final Target YEAR = Target.the("Campo para ingresar año").located(By.xpath("//select//option[contains(text(),'1994')]"));
-
     public static final Target FIRST_NAME = Target.the("Campo para ingresar nombre").located(By.id("firstname"));
     public static final Target LAST_NAME = Target.the("Campo para ingresar apellido").located(By.id("lastname"));
     public static final Target COMPANY = Target.the("Campo para ingresar empresa").located(By.id("company"));

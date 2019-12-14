@@ -5,12 +5,9 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.targets.Target;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.thucydides.core.annotations.Step;
-
 import java.util.Map;
-
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
@@ -31,12 +28,19 @@ public class RegistroUsuario implements Task {
         this.nombre = dataRegistro.get("nombre");
         this.apellido = dataRegistro.get("apellido");
         this.telefono = dataRegistro.get("telefono");
-        this.email = dataRegistro.get("email");
+        this.email = crearEmailUnico(dataRegistro.get("email"));
         this.contraseña = dataRegistro.get("contraseña");
         this.codigoPostal = dataRegistro.get("codigoPost");
         this.compañia = dataRegistro.get("compañia");
         this.ciudad = dataRegistro.get("ciudad");
         this.direccion = dataRegistro.get("direccion");
+
+    }
+
+    public String crearEmailUnico(String datos){
+
+        String prefijo = datos.split("@")[0]+ System.currentTimeMillis();
+        return prefijo+"@"+datos.split("@")[1];
 
     }
     @Override
