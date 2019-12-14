@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf17c2e9-5d19-4c1b-976e-418605e41984" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/interactions/SubirArchivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/tasks/EnviarCorreo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/tasks/EnviarCorreo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/tasks/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/tasks/RegistroUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/tasks/RegistroUsuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/userinterface/MailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/userinterface/MailPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/util/ObtenerArchivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/util/ObtenerArchivo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/com/qvision/test/stepdefinitions/PruebaQVisionStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/co/com/qvision/test/stepdefinitions/PruebaQVisionStepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/features/prueba_QVision.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/prueba_QVision.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/ComprarVestido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/ComprarVestido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/EnviarCorreo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/EnviarCorreo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/RegistroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/RegistroUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/ComprarVestidoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/ComprarVestidoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/MailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/MailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/RegistroUsuarioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/RegistroUsuarioPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/util/ObtenerArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/util/ObtenerArchivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/qvision/test/stepdefinitions/PruebaQVisionStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/qvision/test/stepdefinitions/PruebaQVisionStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/prueba_QVision.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/prueba_QVision.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3_screenshots.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,22 +167,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576200850173" />
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom" timestamp="1576365625784">
+    <state width="1323" height="239" key="GridCell.Tab.0.bottom" timestamp="1576366220531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576365625784" />
-    <state width="1323" height="239" key="GridCell.Tab.0.center" timestamp="1576365625784">
+    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576366220531" />
+    <state width="1323" height="239" key="GridCell.Tab.0.center" timestamp="1576366220531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576365625784" />
-    <state width="1323" height="239" key="GridCell.Tab.0.left" timestamp="1576365625783">
+    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576366220531" />
+    <state width="1323" height="239" key="GridCell.Tab.0.left" timestamp="1576366220531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576365625783" />
-    <state width="1323" height="239" key="GridCell.Tab.0.right" timestamp="1576365625784">
+    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576366220531" />
+    <state width="1323" height="239" key="GridCell.Tab.0.right" timestamp="1576366220531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576365625784" />
+    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576366220531" />
     <state width="1323" height="263" key="GridCell.Tab.1.bottom" timestamp="1576363312275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
