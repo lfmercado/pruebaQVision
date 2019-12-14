@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="realizar el proceso de compra completo" skipped="0" tests="1" time="19.86" timestamp="2019-12-12 09:50:08"><testcase name="ana inicia se registra en la pagina y realiza una compra exitosamente"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by id: id_gender1" type="java.lang.AssertionError">
-Expected: an element that is visible
-     but: no matching element found by id: id_gender1</failure><system-err>
-Expected: an element that is visible
-     but: no matching element found by id: id_gender1&#13;
-co.com.prueba.qvision.tasks.RegistroUsuario.performAs(RegistroUsuario.java:29)&#13;
-co.com.qvision.test.stepdefinitions.PruebaQVisionStepDefinitions.meganSeRegistraEnLaPaginaConSusDatosBasicosNombreApellidoYTelefonoYSuEmail(PruebaQVisionStepDefinitions.java:28)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="realizar el proceso de compra completo" skipped="0" tests="1" time="69.98" timestamp="2019-12-14 12:04:00"><testcase name="ana inicia se registra en la pagina y realiza una compra exitosamente"/></testsuite>

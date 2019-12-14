@@ -131,7 +131,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-12-2019 21:50</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-12-2019 00:04</span>
     <br style="clear:left"/>
 </div>
 
@@ -166,9 +166,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                <span class="failing-color">ana inicia se registra en la pagina y realiza una compra exitosamente
+                                <span class="success-color">ana inicia se registra en la pagina y realiza una compra exitosamente
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -184,64 +184,160 @@
 
     <div class="story-title">
         <h3>Scenario:</h3>
-        <div class="scenario">Given megan se registra en la pagina con sus datos basicos nombre "&lt;nombre&gt;" apellido "&lt;apellido&gt;" y telefono "&lt;telefono&gt;" y su email "&lt;email&gt;"<br>When realiza una compra exitosamente<br>Then debe de generar un comprobante de compra</div>
+        <div class="scenario">Given luis se registra en la pagina con sus datos basicos<br><table class='embedded'><thead><th>nombre</th><th>&lt;nombre&gt;</th></thead><tbody><tr><td>apellido</td><td>&lt;apellido&gt;</td></tr><tr><td>telefono</td><td>&lt;telefono&gt;</td></tr><tr><td>email</td><td>&lt;email&gt;</td></tr><tr><td>contraseña</td><td>&lt;contraseña&gt;</td></tr><tr><td>compañia</td><td>&lt;compañia&gt;</td></tr><tr><td>direccion</td><td>&lt;direccion&gt;</td></tr><tr><td>ciudad</td><td>&lt;ciudad&gt;</td></tr><tr><td>codigoPost</td><td>&lt;codigoPost&gt;</td></tr></tbody></table><br>When realiza una compra exitosamente<br>And descarga el recibo de compra<br>And envia el comprobante de pago<br><table class='embedded'><thead><th>usurio</th><th>&lt;usuarioMail&gt;</th></thead><tbody><tr><td>contraseñaMail</td><td>&lt;contraseñaMail&gt;</td></tr><tr><td>receiver</td><td>&lt;receiver&gt;</td></tr><tr><td>reason</td><td>&lt;reason&gt;</td></tr><tr><td>bodyMessage</td><td>&lt;bodyMessage&gt;</td></tr></tbody></table><br>Then el correo debio ser enviado</div>
     </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
-            <div class="screenshotFailure panel panel-danger">
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Assertion error: Expected: an element that is visible but: no matching element found by id: id_gender1</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-overall">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>co.com.prueba.qvision.tasks.RegistroUsuario.performAs(RegistroUsuario.java:29)<br />co.com.qvision.test.stepdefinitions.PruebaQVisionStepDefinitions.meganSeRegistraEnLaPaginaConSusDatosBasicosNombreApellidoYTelefonoYSuEmail(PruebaQVisionStepDefinitions.java:28)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-                <div class="panel-body">
-                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
-                </div>
-            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Example: {nombre=Luis Fernando, apellido=Mercado, telefono=3185548721, email=correo@correo.com}" width="1366"/>
-                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Given megan se registra en la pagina con sus datos basicos nombre &quot;Luis Fernando&quot; apellido &quot;Mercado&quot; y telefono &quot;3185548721&quot; y su email &quot;correo@correo.com&quot;" width="1366"/>
-                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Megan ingresa a la url principal " width="1366"/>
-                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Megan opens the http://automationpractice.com/index.php" width="1366"/>
-                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Megan ingresa a la url principal  (completed)" width="1366"/>
+                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Example: {nombre=Luis Fernando, apellido=Mercado, telefono=3185548721, email=soyuncorreovalido8@correovalido.com, contrase&ntilde;a=123456luis, compa&ntilde;ia=Qvision, direccion=Calazans, ciudad=Medellin, codigoPost=50035, usuarioMail=usuariopruebaqvision@gmail.com, contrase&ntilde;aMail=123456789Qvision, receiver=usuariopruebaqvision@gmail.com, reason=comprobante de compra, bodyMessage=esta la factura con el valor de la compra}" width="1366"/>
+                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Given luis se registra en la pagina con sus datos basicos
+| nombre | Luis Fernando |
+| apellido | Mercado |
+| telefono | 3185548721 |
+| email | soyuncorreovalido8@correovalido.com |
+| contrase&ntilde;a | 123456luis |
+| compa&ntilde;ia | Qvision |
+| direccion | Calazans |
+| ciudad | Medellin |
+| codigoPost | 50035 |" width="1366"/>
+                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Luis ingresa a la url principal " width="1366"/>
+                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Luis opens the http://automationpractice.com/index.php" width="1366"/>
+                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Luis ingresa a la url principal  (completed)" width="1366"/>
                 <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" {1} un usuario se registra " width="1366"/>
-                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Megan clicks on Boton de iniciar sesion" width="1366"/>
-                <img src="2f7efda2f32a0b23f481f89a491432039d92c39b9a1fa2ca7f9eedf3737cb1b5.png" title=" Megan clicks on Boton de iniciar sesion (completed)" width="1366"/>
-                <img src="2f7efda2f32a0b23f481f89a491432039d92c39b9a1fa2ca7f9eedf3737cb1b5.png" title=" Megan enters 'correo@correo.com' into Campo ingresar correo" width="1366"/>
-                <img src="5924eeb4be8073def401a38f5b36fd051ec77a2619d65c749433dd698d0a82ff.png" title=" Megan enters 'correo@correo.com' into Campo ingresar correo (completed)" width="1366"/>
-                <img src="5924eeb4be8073def401a38f5b36fd051ec77a2619d65c749433dd698d0a82ff.png" title=" Megan clicks on Boton Crear Cuenta" width="1366"/>
-                <img src="78e2b3930b6082024a1b0b76a343cfbda7ca401c77b758bb80c087ed4c7d2f90.png" title=" Megan clicks on Boton Crear Cuenta (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
+                <img src="3707b6bac6c9229fc065fabd5e1865e2af789cc94624c27ec40155dddbebfafb.png" title=" Luis clicks on Boton de iniciar sesion" width="1366"/>
+                <img src="2f7efda2f32a0b23f481f89a491432039d92c39b9a1fa2ca7f9eedf3737cb1b5.png" title=" Luis clicks on Boton de iniciar sesion (completed)" width="1366"/>
+                <img src="2f7efda2f32a0b23f481f89a491432039d92c39b9a1fa2ca7f9eedf3737cb1b5.png" title=" Luis enters 'soyuncorreovalido8@correovalido.com' into Campo ingresar correo" width="1366"/>
+                <img src="8c27510bb15dab37048c3a93f2d894e066590f8ac91d4b6a0561afa92edee266.png" title=" Luis enters 'soyuncorreovalido8@correovalido.com' into Campo ingresar correo (completed)" width="1366"/>
+                <img src="8c27510bb15dab37048c3a93f2d894e066590f8ac91d4b6a0561afa92edee266.png" title=" Luis clicks on Boton Crear Cuenta" width="1366"/>
+                <img src="16186d0da90f9f5ab1ac020fd261ec6d588225c7762bc43c2b0d7fa20dcacf6c.png" title=" Luis clicks on Boton Crear Cuenta (completed)" width="1366"/>
+                <img src="ba52f63bb705810a841800e48f476a60f5bd6b385b3ded9fa1cac3d117ebb360.png" title=" Luis clicks on Radio button Mr" width="1366"/>
+                <img src="c11ea22c1bee0beb968f44db904191621271686e156b156bf9f2754351a54b06.png" title=" Luis clicks on Radio button Mr (completed)" width="1366"/>
+                <img src="c11ea22c1bee0beb968f44db904191621271686e156b156bf9f2754351a54b06.png" title=" Luis enters 'Luis Fernando' into Campo para ingresar nombre" width="1366"/>
+                <img src="f7ef83fa32c663426d3af2a91cceb1c60f8bafc0bb7db86ca4f30efa0701c10e.png" title=" Luis enters 'Luis Fernando' into Campo para ingresar nombre (completed)" width="1366"/>
+                <img src="f7ef83fa32c663426d3af2a91cceb1c60f8bafc0bb7db86ca4f30efa0701c10e.png" title=" Luis enters 'Mercado' into Campo para ingresar apellido" width="1366"/>
+                <img src="3bb145c832f3b4c841a6698b5917a33cd5ba1c2a52d090e078c111f9ce9a558a.png" title=" Luis enters 'Mercado' into Campo para ingresar apellido (completed)" width="1366"/>
+                <img src="3bb145c832f3b4c841a6698b5917a33cd5ba1c2a52d090e078c111f9ce9a558a.png" title=" Luis enters 'soyuncorreovalido8@correovalido.com' into Campo para ingresar correo" width="1366"/>
+                <img src="f5ebddf223b07607cd1da69ab1064401d2929ca7ee3c51253c782cd4e7b39d3d.png" title=" Luis enters 'soyuncorreovalido8@correovalido.com' into Campo para ingresar correo (completed)" width="1366"/>
+                <img src="f5ebddf223b07607cd1da69ab1064401d2929ca7ee3c51253c782cd4e7b39d3d.png" title=" Luis enters '123456luis' into Campo para ingresar contrase&ntilde;a" width="1366"/>
+                <img src="f82718334b9fcefc38d3f2742d305e42829398178f9cc3af48ed2b9ca8b82e2b.png" title=" Luis enters '123456luis' into Campo para ingresar contrase&ntilde;a (completed)" width="1366"/>
+                <img src="f82718334b9fcefc38d3f2742d305e42829398178f9cc3af48ed2b9ca8b82e2b.png" title=" Luis clicks on Campo para ingresar dia" width="1366"/>
+                <img src="c0dd2ffd52c20a4f510a776bdc55b01883e289f9fa8b38c9772a09697b39a2ff.png" title=" Luis clicks on Campo para ingresar dia (completed)" width="1366"/>
+                <img src="c0dd2ffd52c20a4f510a776bdc55b01883e289f9fa8b38c9772a09697b39a2ff.png" title=" Luis clicks on Campo para ingresar mes" width="1366"/>
+                <img src="39d637f91fb5075b225ae3e69103ae7ba5ffc7f36091f5a5b1750b63e8202f08.png" title=" Luis clicks on Campo para ingresar mes (completed)" width="1366"/>
+                <img src="39d637f91fb5075b225ae3e69103ae7ba5ffc7f36091f5a5b1750b63e8202f08.png" title=" Luis clicks on Campo para ingresar a&ntilde;o" width="1366"/>
+                <img src="2f0cb5947fb5e85fc85f66b9dd1587cafb65f31991f7e135c39d8f4f5e923174.png" title=" Luis clicks on Campo para ingresar a&ntilde;o (completed)" width="1366"/>
+                <img src="2f0cb5947fb5e85fc85f66b9dd1587cafb65f31991f7e135c39d8f4f5e923174.png" title=" Luis enters 'Luis Fernando' into Campo para ingresar nombre" width="1366"/>
+                <img src="5c9ca4610342b6872a3712d362255e73425bbeee8179d6f369fef0e88591d8a9.png" title=" Luis enters 'Luis Fernando' into Campo para ingresar nombre (completed)" width="1366"/>
+                <img src="5c9ca4610342b6872a3712d362255e73425bbeee8179d6f369fef0e88591d8a9.png" title=" Luis enters 'Mercado' into Campo para ingresar apellido" width="1366"/>
+                <img src="509614fae6203e2a8b140e49d6a134fba3272245a74d3aa6d328a3cdde54319e.png" title=" Luis enters 'Mercado' into Campo para ingresar apellido (completed)" width="1366"/>
+                <img src="509614fae6203e2a8b140e49d6a134fba3272245a74d3aa6d328a3cdde54319e.png" title=" Luis enters 'Qvision' into Campo para ingresar empresa" width="1366"/>
+                <img src="6127f27777946c3f455c50e563065c466e7e28d04777007ab6290f5b78e5520f.png" title=" Luis enters 'Qvision' into Campo para ingresar empresa (completed)" width="1366"/>
+                <img src="6127f27777946c3f455c50e563065c466e7e28d04777007ab6290f5b78e5520f.png" title=" Luis enters 'Calazans' into Campo para ingresar empresa" width="1366"/>
+                <img src="100554a815fde3586037a73a5e433055555075da3eccec8dd85c32dcb7b022cd.png" title=" Luis enters 'Calazans' into Campo para ingresar empresa (completed)" width="1366"/>
+                <img src="100554a815fde3586037a73a5e433055555075da3eccec8dd85c32dcb7b022cd.png" title=" Luis enters 'Medellin' into Campo para ingresar ciudad" width="1366"/>
+                <img src="1b2b1318427ed42d30aa245a1967e97fb7da9d03cdf2709d1c9829f7364eb59a.png" title=" Luis enters 'Medellin' into Campo para ingresar ciudad (completed)" width="1366"/>
+                <img src="1b2b1318427ed42d30aa245a1967e97fb7da9d03cdf2709d1c9829f7364eb59a.png" title=" Luis clicks on Campo para ingresar estado" width="1366"/>
+                <img src="e47865ca0cc959f8f6a025510b6038c58857693217e33c65b9afa4410e44dd92.png" title=" Luis clicks on Campo para ingresar estado (completed)" width="1366"/>
+                <img src="e47865ca0cc959f8f6a025510b6038c58857693217e33c65b9afa4410e44dd92.png" title=" Luis enters '50035' into Campo para ingresar codigo postal" width="1366"/>
+                <img src="52fdf10bad3f3c7ae44f1770d9ccb143c3a70db807069860c67416af30d7ca93.png" title=" Luis enters '50035' into Campo para ingresar codigo postal (completed)" width="1366"/>
+                <img src="52fdf10bad3f3c7ae44f1770d9ccb143c3a70db807069860c67416af30d7ca93.png" title=" Luis clicks on Campo para ingresar la ciudad" width="1366"/>
+                <img src="7acb560beb9ec43067a3e599830b464782599d80334f983b218b40abfb688e35.png" title=" Luis clicks on Campo para ingresar la ciudad (completed)" width="1366"/>
+                <img src="7acb560beb9ec43067a3e599830b464782599d80334f983b218b40abfb688e35.png" title=" Luis enters '3185548721' into Campo para ingresar el telefono" width="1366"/>
+                <img src="399030ba9484383463463636aab97a5a69e1099505986cbe0fbf9f3b76172acc.png" title=" Luis enters '3185548721' into Campo para ingresar el telefono (completed)" width="1366"/>
+                <img src="399030ba9484383463463636aab97a5a69e1099505986cbe0fbf9f3b76172acc.png" title=" Luis enters 'Calazans' into Campo para ingresar la direccion" width="1366"/>
+                <img src="f0582ee0c3e0c7fba4ec12ab91e665b349a959d37d0ee08612ebb71d00770a16.png" title=" Luis enters 'Calazans' into Campo para ingresar la direccion (completed)" width="1366"/>
+                <img src="f0582ee0c3e0c7fba4ec12ab91e665b349a959d37d0ee08612ebb71d00770a16.png" title=" Luis clicks on Boton para confirmar" width="1366"/>
+                <img src="5b2180aaaec2dc68c8cb12e6b44547e959627150c99091090499eaf8297f4b06.png" title=" Luis clicks on Boton para confirmar (completed)" width="1366"/>
+                <img src="5b2180aaaec2dc68c8cb12e6b44547e959627150c99091090499eaf8297f4b06.png" title=" {1} un usuario se registra  (completed)" width="1366"/>
+                <img src="5b2180aaaec2dc68c8cb12e6b44547e959627150c99091090499eaf8297f4b06.png" title=" Given luis se registra en la pagina con sus datos basicos
+| nombre | Luis Fernando |
+| apellido | Mercado |
+| telefono | 3185548721 |
+| email | soyuncorreovalido8@correovalido.com |
+| contrase&ntilde;a | 123456luis |
+| compa&ntilde;ia | Qvision |
+| direccion | Calazans |
+| ciudad | Medellin |
+| codigoPost | 50035 | (completed)" width="1366"/>
+                <img src="5b2180aaaec2dc68c8cb12e6b44547e959627150c99091090499eaf8297f4b06.png" title=" When realiza una compra exitosamente" width="1366"/>
+                <img src="5b2180aaaec2dc68c8cb12e6b44547e959627150c99091090499eaf8297f4b06.png" title=" {2} se realiza una compra" width="1366"/>
+                <img src="5b2180aaaec2dc68c8cb12e6b44547e959627150c99091090499eaf8297f4b06.png" title=" Luis clicks on Pagina Principal" width="1366"/>
+                <img src="dafe13a9add673ce52ae7663dd5b525a95e47f6ae129765486a2873f3b22d43d.png" title=" Luis clicks on Pagina Principal (completed)" width="1366"/>
+                <img src="dafe13a9add673ce52ae7663dd5b525a95e47f6ae129765486a2873f3b22d43d.png" title=" Luis clicks on Menu vestidos" width="1366"/>
+                <img src="fb149f0a33e95fed9f9e61807ed7a1101d97dfe353961587661e384905753310.png" title=" Luis clicks on Menu vestidos (completed)" width="1366"/>
+                <img src="fb149f0a33e95fed9f9e61807ed7a1101d97dfe353961587661e384905753310.png" title=" Luis clicks on Submenu vestidos" width="1366"/>
+                <img src="60cf50550d394c20b91884a0025b43c7135e5decc50986ce65e192b2649c11ae.png" title=" Luis clicks on Submenu vestidos (completed)" width="1366"/>
+                <img src="60cf50550d394c20b91884a0025b43c7135e5decc50986ce65e192b2649c11ae.png" title=" Luis clicks on Vestido a comprar" width="1366"/>
+                <img src="c369b9acfd6cbf0f559c91d6d0213a9d3cbf0bdf4da0f08f67ae1835fcd9be72.png" title=" Luis clicks on Vestido a comprar (completed)" width="1366"/>
+                <img src="c369b9acfd6cbf0f559c91d6d0213a9d3cbf0bdf4da0f08f67ae1835fcd9be72.png" title=" Luis clicks on Agregar compra" width="1366"/>
+                <img src="300462ed892bc85aac354da49dd667ef003b08d79bf15328e35cc0c015192221.png" title=" Luis clicks on Agregar compra (completed)" width="1366"/>
+                <img src="300462ed892bc85aac354da49dd667ef003b08d79bf15328e35cc0c015192221.png" title=" Luis clicks on Continuar con la compra" width="1366"/>
+                <img src="7fa522d0653c8a971ebd00236da31ef325d9edc172c1460dd2573aa1e837320d.png" title=" Luis clicks on Continuar con la compra (completed)" width="1366"/>
+                <img src="7fa522d0653c8a971ebd00236da31ef325d9edc172c1460dd2573aa1e837320d.png" title=" Luis clicks on Continuar con la compra" width="1366"/>
+                <img src="2f3132c8e3b71394fc97b1d377b4bce9bb5f6c7bb84038da406c51cbc858dd81.png" title=" Luis clicks on Continuar con la compra (completed)" width="1366"/>
+                <img src="2f3132c8e3b71394fc97b1d377b4bce9bb5f6c7bb84038da406c51cbc858dd81.png" title=" Luis clicks on Continuar" width="1366"/>
+                <img src="6ae2102ecd382521241b7c6ba47f7dfb6962464443358c59de842572217d3a55.png" title=" Luis clicks on Continuar (completed)" width="1366"/>
+                <img src="6ae2102ecd382521241b7c6ba47f7dfb6962464443358c59de842572217d3a55.png" title=" Luis clicks on Aceptar terminos del servicio" width="1366"/>
+                <img src="39e1ed372743d2b49903b84dfccb1979e46f472ae661d2417fb0a9436e9c5163.png" title=" Luis clicks on Aceptar terminos del servicio (completed)" width="1366"/>
+                <img src="39e1ed372743d2b49903b84dfccb1979e46f472ae661d2417fb0a9436e9c5163.png" title=" Luis clicks on Continuar" width="1366"/>
+                <img src="7723b2d2f8256aee6d551124205ebc24c01037e1f4cc078d0e726c7752c494e2.png" title=" Luis clicks on Continuar (completed)" width="1366"/>
+                <img src="7723b2d2f8256aee6d551124205ebc24c01037e1f4cc078d0e726c7752c494e2.png" title=" Luis clicks on Pago con cheque" width="1366"/>
+                <img src="42b8e53635fcc263d820f4fafa902fd8e723637d3a15d5f02790f1ae3fe3ff29.png" title=" Luis clicks on Pago con cheque (completed)" width="1366"/>
+                <img src="42b8e53635fcc263d820f4fafa902fd8e723637d3a15d5f02790f1ae3fe3ff29.png" title=" Luis clicks on Confirmar compra" width="1366"/>
+                <img src="73ea91eeed32350f336c03b69b0f57c01a606c891370aa005f294adb1d181b5f.png" title=" {2} se realiza una compra" width="1366"/>
+                <img src="73ea91eeed32350f336c03b69b0f57c01a606c891370aa005f294adb1d181b5f.png" title=" Luis clicks on Confirmar compra (completed)" width="1366"/>
+                <img src="73ea91eeed32350f336c03b69b0f57c01a606c891370aa005f294adb1d181b5f.png" title=" When realiza una compra exitosamente (completed)" width="1366"/>
+                <img src="73ea91eeed32350f336c03b69b0f57c01a606c891370aa005f294adb1d181b5f.png" title=" And descarga el recibo de compra" width="1366"/>
+                <img src="73ea91eeed32350f336c03b69b0f57c01a606c891370aa005f294adb1d181b5f.png" title=" {3} descarga el recibo de pago" width="1366"/>
+                <img src="73ea91eeed32350f336c03b69b0f57c01a606c891370aa005f294adb1d181b5f.png" title=" Luis clicks on perfil del usuario" width="1366"/>
+                <img src="5b2180aaaec2dc68c8cb12e6b44547e959627150c99091090499eaf8297f4b06.png" title=" Luis clicks on perfil del usuario (completed)" width="1366"/>
+                <img src="5b2180aaaec2dc68c8cb12e6b44547e959627150c99091090499eaf8297f4b06.png" title=" Luis clicks on historial de compras" width="1366"/>
+                <img src="700939ead2329a965405403ffeb73ba853088a7c622f513b39b3b72371b616ce.png" title=" Luis clicks on historial de compras (completed)" width="1366"/>
+                <img src="700939ead2329a965405403ffeb73ba853088a7c622f513b39b3b72371b616ce.png" title=" Luis clicks on descargar pdf de compra" width="1366"/>
+                <img src="451f67c9c9dd7b635fa372eccb97622626b6477138d58fc9623cb3a034d31c7d.png" title=" Luis clicks on descargar pdf de compra (completed)" width="1366"/>
+                <img src="451f67c9c9dd7b635fa372eccb97622626b6477138d58fc9623cb3a034d31c7d.png" title=" {3} descarga el recibo de pago (completed)" width="1366"/>
+                <img src="451f67c9c9dd7b635fa372eccb97622626b6477138d58fc9623cb3a034d31c7d.png" title=" And descarga el recibo de compra (completed)" width="1366"/>
+                <img src="451f67c9c9dd7b635fa372eccb97622626b6477138d58fc9623cb3a034d31c7d.png" title=" And envia el comprobante de pago
+| usurio | usuariopruebaqvision@gmail.com |
+| contrase&ntilde;aMail | 123456789Qvision |
+| receiver | usuariopruebaqvision@gmail.com |
+| reason | comprobante de compra |
+| bodyMessage | esta la factura con el valor de la compra |" width="1366"/>
+                <img src="451f67c9c9dd7b635fa372eccb97622626b6477138d58fc9623cb3a034d31c7d.png" title=" Luis ingresa a la url principal " width="1366"/>
+                <img src="451f67c9c9dd7b635fa372eccb97622626b6477138d58fc9623cb3a034d31c7d.png" title=" Luis opens the https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;service=mail&amp;sacu=1&amp;rip=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin" width="1366"/>
+                <img src="544f7bb465776d7031caa199eec783b5089f3bd5b376d84956dda713a82e7e0a.png" title=" Luis opens the https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;service=mail&amp;sacu=1&amp;rip=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin (completed)" width="1366"/>
+                <img src="544f7bb465776d7031caa199eec783b5089f3bd5b376d84956dda713a82e7e0a.png" title=" Luis ingresa a la url principal  (completed)" width="1366"/>
+                <img src="544f7bb465776d7031caa199eec783b5089f3bd5b376d84956dda713a82e7e0a.png" title=" Luis enviar correo" width="1366"/>
+                <img src="c9ce4c91ddb6c0ba8df70b0bf68bcd042487968b7fcafc2d27dffea42ee1a6f5.png" title=" Luis enters 'usuariopruebaqvision@gmail.com' into input para ingresar correo" width="1366"/>
+                <img src="65427d40fdbb784e5c5b9c2eb9c877f1ebff52f08f086413db3aabcc75f0dc5c.png" title=" Luis enters 'usuariopruebaqvision@gmail.com' into input para ingresar correo (completed)" width="1366"/>
+                <img src="65427d40fdbb784e5c5b9c2eb9c877f1ebff52f08f086413db3aabcc75f0dc5c.png" title=" Luis clicks on boton de siguiente" width="1366"/>
+                <img src="f9246cfe210b2011d6ed736810cf7d883aeca45e32df2a36d8ce124f230efd1a.png" title=" Luis clicks on boton de siguiente (completed)" width="1366"/>
+                <img src="aaaebd395869c9c7f499a7a15e42560d43922b548c58612fb00b5660f25da7b0.png" title=" Luis enters '123456789Qvision' into input para ingresar contrase&ntilde;a" width="1366"/>
+                <img src="8bd4cd7347612ab29c13b3268b96260a4cde7df80707509bf597c7208c37c9ce.png" title=" Luis enters '123456789Qvision' into input para ingresar contrase&ntilde;a (completed)" width="1366"/>
+                <img src="8bd4cd7347612ab29c13b3268b96260a4cde7df80707509bf597c7208c37c9ce.png" title=" Luis clicks on boton de siguiente" width="1366"/>
+                <img src="af623ac9da1b2c5e6ca2293cf840f9a9917e45e6ccefd470893c39e5b3807d60.png" title=" Luis clicks on boton de siguiente (completed)" width="1366"/>
+                <img src="e28364849211469b3f8da7ac6b04dd8e4c0b8ae1b63e56335ac13888b12fc631.png" title=" Luis clicks on boton para redactar correo" width="1366"/>
+                <img src="42edb1ce14198242b894a7e231f078d65711044be1ca346f4d150d97960b8d0e.png" title=" Luis clicks on boton para redactar correo (completed)" width="1366"/>
+                <img src="903419a4923d7f23d95b2344fda8ae2d3c7b9868ae89208b63a55859d7f56d4c.png" title=" Luis enters 'usuariopruebaqvision@gmail.com' into destinatario del correo" width="1366"/>
+                <img src="d0a4cf6291008faa85fa097407ffcdad62e692c00aff43e9aadbdc55fa94bb68.png" title=" Luis enters 'usuariopruebaqvision@gmail.com' into destinatario del correo (completed)" width="1366"/>
+                <img src="d0a4cf6291008faa85fa097407ffcdad62e692c00aff43e9aadbdc55fa94bb68.png" title=" Luis enters 'comprobante de compra' into motivo del correo" width="1366"/>
+                <img src="3fb4a685b18f3d43f6252f7b420df5c76896b6f2c068ecdd972ccac5d438064e.png" title=" Luis enters 'comprobante de compra' into motivo del correo (completed)" width="1366"/>
+                <img src="3fb4a685b18f3d43f6252f7b420df5c76896b6f2c068ecdd972ccac5d438064e.png" title=" Luis enters 'esta la factura con el valor de la compra' into cuerpo del mensaje" width="1366"/>
+                <img src="bee555b15d1ce7cd4e0c245fe6a2f9d1b2afcd7f1d619ef16868ff2b48f57fd8.png" title=" Luis enters 'esta la factura con el valor de la compra' into cuerpo del mensaje (completed)" width="1366"/>
+                <img src="bee555b15d1ce7cd4e0c245fe6a2f9d1b2afcd7f1d619ef16868ff2b48f57fd8.png" title=" Luis enters 'C:\Users\Luis Fernando\downloads\IN145296.pdf' into boton para abjuntar archivo" width="1366"/>
+                <img src="73f33651c5ff9a161428b5cc0224e6b85b4aaf55b80a3f524e6c5933a3ad1d27.png" title=" Luis enters 'C:\Users\Luis Fernando\downloads\IN145296.pdf' into boton para abjuntar archivo (completed)" width="1366"/>
+                <img src="73f33651c5ff9a161428b5cc0224e6b85b4aaf55b80a3f524e6c5933a3ad1d27.png" title=" Luis enviar correo (completed)" width="1366"/>
+                <img src="73f33651c5ff9a161428b5cc0224e6b85b4aaf55b80a3f524e6c5933a3ad1d27.png" title=" And envia el comprobante de pago
+| usurio | usuariopruebaqvision@gmail.com |
+| contrase&ntilde;aMail | 123456789Qvision |
+| receiver | usuariopruebaqvision@gmail.com |
+| reason | comprobante de compra |
+| bodyMessage | esta la factura con el valor de la compra | (completed)" width="1366"/>
+                <img src="73f33651c5ff9a161428b5cc0224e6b85b4aaf55b80a3f524e6c5933a3ad1d27.png" title=" Then el correo debio ser enviado" width="1366"/>
+                <img src="73f33651c5ff9a161428b5cc0224e6b85b4aaf55b80a3f524e6c5933a3ad1d27.png" title=" Then el correo debio ser enviado (completed)" width="1366"/>
+                <img src="73f33651c5ff9a161428b5cc0224e6b85b4aaf55b80a3f524e6c5933a3ad1d27.png" title=" Example: {nombre=Luis Fernando, apellido=Mercado, telefono=3185548721, email=soyuncorreovalido8@correovalido.com, contrase&ntilde;a=123456luis, compa&ntilde;ia=Qvision, direccion=Calazans, ciudad=Medellin, codigoPost=50035, usuarioMail=usuariopruebaqvision@gmail.com, contrase&ntilde;aMail=123456789Qvision, receiver=usuariopruebaqvision@gmail.com, reason=comprobante de compra, bodyMessage=esta la factura con el valor de la compra} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
             </div>
         </div>
 

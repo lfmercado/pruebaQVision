@@ -8,8 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/prueba_QVision.feature",
-        glue = "co.com.qvision.test.stepdefinitions",
-        snippets = SnippetType.CAMELCASE
+        glue = "co.com.qvision.test.stepdefinitions"
 
 )
 public class PruebaQVision {

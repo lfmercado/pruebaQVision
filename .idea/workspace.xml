@@ -2,11 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf17c2e9-5d19-4c1b-976e-418605e41984" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/ComprarVestido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/EnviarCorreo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/ComprarVestidoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/MailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/ProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/util/ObtenerArchivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/tasks/RegistroUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/tasks/RegistroUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/userinterface/RegistroUsuarioPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/userinterface/RegistroUsuarioPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/userinterface/UrlQVision.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/prueba/qvision/userinterface/UrlQVision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/com/qvision/test/runners/PruebaQVision.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/co/com/qvision/test/runners/PruebaQVision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/com/qvision/test/stepdefinitions/PruebaQVisionStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/co/com/qvision/test/stepdefinitions/PruebaQVisionStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.qvision.test.runners.PruebaQVision.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.qvision.test.runners.PruebaQVision.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/realizar#20el#20proceso#20de#20compra#20completo.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/realizar#20el#20proceso#20de#20compra#20completo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.qvision.test.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.qvision.test.runners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/prueba_QVision.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/prueba_QVision.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-co.com.qvision.test.runners.PruebaQVision.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-co.com.qvision.test.runners.PruebaQVision.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-realizar#20el#20proceso#20de#20compra#20completo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-realizar#20el#20proceso#20de#20compra#20completo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/questions/Comprobante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/questions/Comprobante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/RegistroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/tasks/RegistroUsuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/RegistroUsuarioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/RegistroUsuarioPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/UrlQVision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/prueba/qvision/userinterface/UrlQVision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/qvision/test/runners/PruebaQVision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/qvision/test/runners/PruebaQVision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/qvision/test/stepdefinitions/PruebaQVisionStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/qvision/test/stepdefinitions/PruebaQVisionStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/prueba_QVision.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/prueba_QVision.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f307975c596c003b3e956c2f2cd90ec1796837892a670d6d349752149f4073f3_screenshots.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +87,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UuGn30iSTBXgkbeCpow0iwvknQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/features" />
@@ -56,19 +104,32 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Luis Fernando\Downloads\PruebaQVision\src\main\resources\features" />
-      <recent name="C:\Users\Luis Fernando\Downloads\PruebaQVision\src\main\java\co\com\prueba\qvision" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Luis Fernando\Downloads\PruebaQVision\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.com.prueba.qvision.tasks" />
       <recent name="co.com.prueba.qvision.runners.test.qvision.runners" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Luis Fernando\Downloads\PruebaQVision\src\test\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Luis Fernando\Downloads\PruebaQVision\src\main\resources\features" />
+      <recent name="C:\Users\Luis Fernando\Downloads\PruebaQVision\src\main\java\co\com\prueba\qvision" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.PruebaQVision">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.prueba.qvision.tasks.Main" />
+      <module name="PruebaQVision.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.prueba.qvision.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PruebaQVision" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -92,6 +153,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.PruebaQVision" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -120,15 +182,28 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Project_Structure" timestamp="1576201941342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1576201941342" />
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1576205302120">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1576296108573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1576205302120" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1576296108573" />
     <state x="278" y="279" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1576199752084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -141,25 +216,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576200850173" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1576206841742">
+    <state width="1323" height="239" key="GridCell.Tab.0.bottom" timestamp="1576301782714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576206841742" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1576206841742">
+    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576301782714" />
+    <state width="1323" height="239" key="GridCell.Tab.0.center" timestamp="1576301782714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576206841742" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1576206841742">
+    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576301782714" />
+    <state width="1323" height="239" key="GridCell.Tab.0.left" timestamp="1576301782713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576206841742" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1576206841742">
+    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576301782713" />
+    <state width="1323" height="239" key="GridCell.Tab.0.right" timestamp="1576301782714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576206841742" />
+    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576301782714" />
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576296501917">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1576296501917" />
+    <state x="454" y="81" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576296092268">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="81" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1576296092268" />
     <state x="435" y="284" width="535" height="159" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1576202006666">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="435" y="284" width="535" height="159" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1576202006666" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1576301597771">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576301597771" />
   </component>
 </project>
